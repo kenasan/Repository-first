@@ -7,6 +7,7 @@ public class Main {
         System.out.println(main.hashCode());
         int i = 5;
         long sum = i + i;
+        System.out.println(sum);
     }
 
     @Override
