@@ -7,10 +7,13 @@ public class Main {
 
     private static void say() {
         System.out.println("Hello World!");
+        Main main = new Main();
+        System.out.println(main.toString());
     }
 
     @Override
     public String toString() {
         return "Hallo Repository";
     }
+
 }
