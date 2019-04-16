@@ -5,6 +5,8 @@ public class Main {
         Main main = new Main();
         System.out.println(main.toString());
         System.out.println(main.hashCode());
+        int i = 5;
+        long sum = i + i;
     }
 
     @Override
