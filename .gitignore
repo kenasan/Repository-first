@@ -20,8 +20,8 @@
 *.rar
 
 # IntellijIdea files
-*.[iml]
-.[idea]
+*.iml
+**/.idea
 out
 
 # Gitignore
